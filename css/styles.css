@@ -2,6 +2,9 @@ li{
   padding: 5px 20px;
 }
 
-#main-page-dropdown {
+.dropdown {
+  float: right;
+}
+.btn-group {
   float: right;
 }
