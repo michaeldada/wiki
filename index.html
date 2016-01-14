@@ -3,42 +3,74 @@
   <head>
     <meta charset="utf-8">
     <title>Intro Wiki</title>
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8"> -->
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <script src="bootstrap.min.js" type="text/javascript"></script>
-    <script src ="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src ="js/jquery-1.12.0.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
   </head>
   <body>
 <div class ="container">
   <h1>Welcome to the Intro Class Wiki</h1>
-  <p>Below is a list of common terms and syntax that we learned in the first two weeks.  Feel free to explore each concept below by clicking through to it's respective wiki page.</p>
+  <div class="dropdown" id="main-page-dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Concepts
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <a href="http://www.google.com"><li>Markdown</li></a>
+      <a href="http://www.google.com"><li>Block elements</li></a>
+      <a href="http://www.google.com"><li>Inline elements</li></a>
+      <a href="http://www.google.com"><li>CSS</li></a>
+      <a href="http://www.google.com"><li>Bootstrap</li></a>
+      <a href="http://www.google.com"><li>Divs and spans</li></a>
+      <a href="http://www.google.com"><li>Floats</li></a>
+      <a href="http://www.google.com"><li>Box model</li></a>
+      <a href="http://www.google.com"><li>Cascading styles</li></a>
+      <a href="http://www.google.com"><li>Grid system</li></a>
+      <a href="http://www.google.com"><li>Responsive design</li></a>
+      <a href="http://www.google.com"><li>JavaScript (JS) arithmetic</li></a>
+      <a href="http://www.google.com"><li>JS variables</li></a>
+      <a href="http://www.google.com"><li>JS methods</li></a>
+      <a href="http://www.google.com"><li>JS strings</li></a>
+      <a href="http://www.google.com"><li>JS functions</li></a>
+      <a href="http://www.google.com"><li>jQuery</li></a>
+      <a href="http://www.google.com"><li>DOM manipulation and traversal</li></a>
+      <a href="http://www.google.com"><li>Forms</li></a>
+      <a href="http://www.google.com"><li>Attributes</li></a>
+      <a href="http://www.google.com"><li>Branching</li></a>
+      <a href="http://www.google.com"><li>Arrays</li></a>
+      <a href="http://www.google.com"><li>Looping</li></a>
+    </ul>
+  </div>
+  <p>Below is a list of common terms and syntax that we learned in the first two weeks.<br>Feel free to explore each concept below by clicking through to it's respective wiki page.</p>
   <ul>
-    <a href="http://www.google.com"><li>Markdown</li></a>
-    <a href="http://www.google.com"><li>Block elements</li></a>
-    <a href="http://www.google.com"><li>Inline elements</li></a>
-    <a href="http://www.google.com"><li>CSS</li></a>
-    <a href="http://www.google.com"><li>Bootstrap</li></a>
-    <a href="http://www.google.com"><li>Divs and spans</li></a>
-    <a href="http://www.google.com"><li>Floats</li></a>
-    <a href="http://www.google.com"><li>Box model</li></a>
-    <a href="http://www.google.com"><li>Cascading styles</li></a>
-    <a href="http://www.google.com"><li>Grid system</li></a>
-    <a href="http://www.google.com"><li>Responsive design</li></a>
-    <a href="http://www.google.com"><li>JavaScript (JS) arithmetic</li></a>
-    <a href="http://www.google.com"><li>JS variables</li></a>
-    <a href="http://www.google.com"><li>JS methods</li></a>
-    <a href="http://www.google.com"><li>JS strings</li></a>
-    <a href="http://www.google.com"><li>JS functions</li></a>
-    <a href="http://www.google.com"><li>jQuery</li></a>
-    <a href="http://www.google.com"><li>DOM manipulation and traversal</li></a>
-    <a href="http://www.google.com"><li>Forms</li></a>
-    <a href="http://www.google.com"><li>Attributes</li></a>
-    <a href="http://www.google.com"><li>Branching</li></a>
-    <a href="http://www.google.com"><li>Arrays</li></a>
-    <a href="http://www.google.com"><li>Looping</li></a>
+    <a href="markdown.html"><li>Markdown</li></a>
+    <a href="block-elements.html"><li>Block elements</li></a>
+    <a href="inline-elements.html"><li>Inline elements</li></a>
+    <a href="css.html"><li>CSS</li></a>
+    <a href="bootstrap.html"><li>Bootstrap</li></a>
+    <a href="divs-spans.html"><li>Divs and spans</li></a>
+    <a href="floats.html"><li>Floats</li></a>
+    <a href="box-model.html"><li>Box model</li></a>
+    <a href="cascading-styles.html"><li>Cascading styles</li></a>
+    <a href="grid-system.html"><li>Grid system</li></a>
+    <a href="responsive-design.html"><li>Responsive design</li></a>
+    <a href="js-arithmetic.html"><li>JavaScript (JS) arithmetic</li></a>
+    <a href="js-variables.html"><li>JS variables</li></a>
+    <a href="js-methods.html"><li>JS methods</li></a>
+    <a href="js-strings.html"><li>JS strings</li></a>
+    <a href="js-functions.html"><li>JS functions</li></a>
+    <a href="jquery.html"><li>jQuery</li></a>
+    <a href="dom-manipulation-traversal.html"><li>DOM manipulation and traversal</li></a>
+    <a href="forms.html"><li>Forms</li></a>
+    <a href="attributes.html"><li>Attributes</li></a>
+    <a href="branching.html"><li>Branching</li></a>
+    <a href="arrays.html"><li>Arrays</li></a>
+    <a href="looping.html"><li>Looping</li></a>
   </ul>
+
 </div>
   </body>
 </html>
