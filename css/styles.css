@@ -8,3 +8,12 @@ li{
 .btn-group {
   float: right;
 }
+
+pre{
+  clear: right;
+  width:35%;
+}
+p{
+  width:50%;
+  
+}
