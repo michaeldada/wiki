@@ -1,3 +1,7 @@
+h1 {
+  margin: 40px 0px;
+}
+
 li{
   padding: 5px 20px;
 }
@@ -9,11 +13,17 @@ li{
   float: right;
 }
 
-pre{
-  clear: right;
+pre {
+  margin: 15% 0;
+  /*clear: right;*/
   width:35%;
 }
-p{
-  width:50%;
-  
+
+p {
+  display: inline-block;
+  width: 65%;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-weight: 300;
+
 }
